@@ -1,0 +1,53 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.dylib
+*.exe
+
+# Local config / environment
+.env
+.env.*
+*.secret
+
+# Pytest / Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Database (if using SQLite for testing)
+*.db
+*.sqlite3
+
+# Uvicorn / Gunicorn reload files
+*.pid
