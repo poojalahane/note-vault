@@ -27,7 +27,7 @@ export default function Home() {
     createNote({ title, content });
     setTitle("");
     setContent("");
-    setShowForm(false); // hide form after adding
+    setShowForm(false);
   };
 
   return (
@@ -36,7 +36,6 @@ export default function Home() {
         📒 My Notes
       </h1>
 
-      {/* Toggle Button */}
       <div className="flex justify-center mb-6">
         <button
           onClick={() => setShowForm(!showForm)}
@@ -46,7 +45,6 @@ export default function Home() {
         </button>
       </div>
 
-      {/* Conditional Form */}
       {showForm && (
         <div className="flex justify-center mb-10">
           <form
@@ -83,7 +81,6 @@ export default function Home() {
         </div>
       )}
 
-      {/* Notes List */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {notes?.map((note) => (
           <NoteCard key={note._id || note.note_id} note={note} />

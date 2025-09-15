@@ -1,21 +1,19 @@
 📝 Quick Notes App
 
-A simple and responsive Notes App built with Next.js, Tailwind CSS, and LocalStorage.
-It allows users to sign up, sign in, add, and manage notes directly in the browser without a backend.
+A simple and responsive Notes App built with Next.js, Tailwind CSS.
+It allows users to sign up, sign in, add, and manage notes.
 
 ⚡ Features
 
-Sign Up / Sign In using LocalStorage (no backend required)
+Sign Up / Sign In
 
 Add Notes with title and content
 
-Edit Notes inline
+Edit Notes inlin
 
 Delete Notes easily
 
 Responsive and professional UI built with Tailwind CSS
-
-Data persists using LocalStorage
 
 🛠️ Tech Stack
 
@@ -38,17 +36,12 @@ quick-notes/
 │ │ └── NoteCard.jsx # Note card component
 │ └── hooks/
 │ └── useNotes.js # Custom hook for notes logic
-│
-├── public/ # Images, icons (if any)
-├── styles/
-│ └── globals.css # Tailwind CSS global styles
-├── package.json
-└── README.md
 
 🚀 Getting Started
 1️⃣ Clone the repository
-git clone https://github.com/your-username/quick-notes.git
+git clone https://github.com/poojalahane/note-vault.git
 cd quick-notes
+cd frontend
 
 2️⃣ Install dependencies
 
