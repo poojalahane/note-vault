@@ -64,3 +64,7 @@ On sign in, credentials are validated against stored data.
 After login, users can add, edit, and delete notes.
 
 Notes are tied to the logged-in session in LocalStorage.
+
+![alt text](<Screenshot 2025-09-15 171402.png>)
+![alt text](<Screenshot 2025-09-15 171509.png>)
+![alt text](<Screenshot 2025-09-15 171614.png>)
